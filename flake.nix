@@ -39,9 +39,13 @@
             rocksdb
             curl
             git
+            llvmPackages.libclang
+            clang
           ] ++ lib.optionals stdenv.isDarwin [
             darwin.apple_sdk.frameworks.Security
           ];
+
+          LIBCLANG_PATH = "${lib.getLib llvmPackages.libclang}/lib";
 
           shellHook = ''
             export RUST_BACKTRACE=full
