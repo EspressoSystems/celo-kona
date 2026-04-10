@@ -218,21 +218,21 @@ alloy-eips = { git = "https://github.com/celo-org/alloy", branch = "fix-fake-exp
 alloy-serde = { git = "https://github.com/celo-org/alloy", branch = "fix-fake-exponential-v1.5.2" }
 
 [patch."https://github.com/op-rs/kona"]
-kona-host = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-client = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-driver   = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-derive   = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-genesis  = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-protocol = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-registry = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-providers-alloy = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-mpt        = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-proof      = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-executor   = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-std-fpvm   = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-preimage   = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-std-fpvm-proc = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
-kona-cli   = { git = "https://github.com/celo-org/kona", rev = "cf790b7" }
+kona-host = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-client = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-driver   = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-derive   = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-genesis  = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-protocol = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-registry = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-providers-alloy = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-mpt        = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-proof      = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-executor   = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-std-fpvm   = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-preimage   = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-std-fpvm-proc = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
+kona-cli   = { git = "https://github.com/EspressoSystems/kona-celo-fork", branch = "espresso-integration-rebase-1" }
 
 # TODO: Remove this patch once Hokulea is upgraded to a version that includes
 # the Kona update from:
