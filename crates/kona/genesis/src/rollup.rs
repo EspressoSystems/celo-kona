@@ -168,6 +168,8 @@ mod tests {
                 da_resolve_window: Some(1),
                 da_commitment_type: Some(String::from("GenericCommitment")),
             }),
+            batch_authenticator_address: None,
+            batch_auth_lookback_window: None,
         });
 
         let deserialized: CeloRollupConfig = serde_json::from_str(raw).unwrap();
