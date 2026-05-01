@@ -72,7 +72,8 @@ allow-git = [
     "https://github.com/celo-org/kona",
     "https://github.com/celo-org/revm",
     "https://github.com/celo-org/alloy",
-    "https://github.com/celo-org/hokulea"
+    "https://github.com/celo-org/hokulea",
+    "https://github.com/EspressoSystems/kona-celo-fork"
 ]
 
 [sources.allow-org]
